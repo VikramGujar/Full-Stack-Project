@@ -1,0 +1,29 @@
+.number-pad {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columns */
+    gap: 10px;
+    margin: 20px;
+    justify-content: center;
+  }
+  
+  .number-button {
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #f0f0f0;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+  }
+  
+  .number-button:hover {
+    background-color: #ddd;
+    transform: scale(1.1);
+  }
+  
+  .number-button:active {
+    background-color: #ccc;
+    transform: scale(0.95);
+  }
+  

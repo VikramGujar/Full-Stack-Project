@@ -1,0 +1,58 @@
+/* Header container */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #0288d1; /* Light blue color */
+    color: #fff; /* White text */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* App logo */
+  .app-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+  }
+  
+  /* Buttons in the middle */
+  .header-middle .header-button {
+    background-color: #fff;
+    color: #0288d1;
+    border: none;
+    padding: 8px 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
+  }
+  
+  .header-middle .header-button:hover {
+    background-color: #0277bd;
+    color: #fff;
+    transform: scale(1.05);
+  }
+  
+  /* Balance display on the right */
+  .balance {
+    font-size: 1rem;
+    margin-right: 10px;
+  }
+  
+  .refresh-button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .refresh-button:hover {
+    transform: rotate(360deg);
+  }
+  
