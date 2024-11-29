@@ -7,19 +7,19 @@ import GameRecord from "./GameRecord";
 import TransactionButtons from "./TransactionButtons";
 
 const App = () => {
-  // State for managing user balance
+  
   const [balance, setBalance] = useState(10.00);
 
-  // State for timer resets
+  
   const [timerKey, setTimerKey] = useState(0);
 
-  // State for user records
+  
   const [records, setRecords] = useState([]);
 
-  // Handle refreshing the balance
+  
   const handleRefresh = () => {
     console.log("Balance refreshed!");
-    // Add your API call or balance update logic here
+    
   };
 
   // Handle timer end
